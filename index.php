@@ -19,7 +19,7 @@ session_start();
 
 
 
-    
+    <!--Info tekst-->
     <h1 class = "profiletext">Ingrid's opvang</h1><br>
     <p class = "profiletext">Hoi ouders,  Mijn naam is Ingrid Zwartveld, ik ben 47 jaar en heb 2 zonen van 14 en 18 jaar.</p>
 

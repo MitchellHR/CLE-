@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,8 +8,7 @@
 
 <body>
 
-
-
+<!--NAVBAR-->
 <?php
 include("navbar.php");
 ?>

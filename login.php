@@ -13,12 +13,12 @@
 
 	<body>
 
-
+	<!--NAVBAR-->
 	<?php
         include("navbar.php");
     ?>
 
-
+		<!--Inlog back-end-->
 		<?php
 			require('db.php');
 			if (isset($_POST['username'])){
@@ -40,6 +40,7 @@
 			}else{
 		?>
 
+				<!--Login front-end-->
 			<div class="signup">
 				<h1>Log In</h1>
 				<form class ="form_login" action="" method="post" name="login">

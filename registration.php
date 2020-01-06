@@ -13,7 +13,7 @@
         include("navbar.php");
     ?>
 
-
+<!--register back-end-->
 <?php
 	require('db.php');
     // If form submitted, insert values into the database.
@@ -53,7 +53,7 @@
         
 ?>
 
-
+<!--Register back-end-->
 <form id="regForm" action="index.php"  method="post">
 
 <h1>Registreer:</h1>
@@ -97,18 +97,6 @@
 </div>
 
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

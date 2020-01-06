@@ -1,5 +1,5 @@
 <?php
-
+//Connect to Database
 $con = mysqli_connect("localhost","root","HRcle2site","register");
 // Check connection
 if (mysqli_connect_errno())

@@ -11,6 +11,7 @@
   </head>
   <body>
 
+<!--Reserve back-end-->
       <?php
       require('navbar.php');
       require('db.php');
@@ -42,9 +43,9 @@
                   $subject = 'Reserveringstijden';
                   $message = 'U heeft voor de volgende datum een afspraak gemaakt ' + $_POST['res_date'] + " " + 'de tijden zijn: ' + $_POST['res_start'] + '-' + $_POST['res_end'] ;
                   $headers = 'From: 0960144@hr.nl' . "\r\n" .
-                      'Reply-To: 0960144@hr.nl' . "\r\n" .
-                      'X-Mailer: PHP/' . phpversion();
-              mail($to, $subject, $message, $headers);
+                              'Reply-To: 0960144@hr.nl' . "\r\n" .
+                               'X-Mailer: PHP/' . phpversion();
+                  mail($to, $subject, $message, $headers);
 
               header('Location: index.php');
 
@@ -57,7 +58,7 @@
 
 
 
-
+<!--Reserve front-end-->
 <form id="regForm" action=""  method="post">
 
 <h1>Inplannen</h1>
